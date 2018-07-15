@@ -1,0 +1,32 @@
+{
+  "name" : "phpcompatibility/phpcompatibility-joomla",
+  "description" : "A set of sniffs for PHP_CodeSniffer that checks for PHP version compatibility for Joomla projects.",
+  "type" : "phpcodesniffer-standard",
+  "keywords" : [ "compatibility", "phpcs", "standards", "joomla" ],
+  "homepage" : "http://phpcompatibility.com/",
+  "license" : "LGPL-3.0-or-later",
+  "authors" : [ {
+    "name" : "Wim Godden",
+    "role" : "lead"
+  },
+  {
+    "name" : "Juliette Reinders Folmer",
+    "role" : "lead"
+  },
+  {
+    "name" : "Mihael Babker",
+    "role" : "Joomla specialist"
+  } ],
+  "support" : {
+    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues",
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla"
+  },
+  "require" : {
+    "phpcompatibility/php-compatibility" : "*"
+  },
+  "suggest" : {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically.",
+    "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+  },
+  "prefer-stable" : true
+}
