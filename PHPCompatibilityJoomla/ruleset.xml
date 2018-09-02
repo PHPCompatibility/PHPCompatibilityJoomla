@@ -170,6 +170,9 @@
 
         <!-- Via `symfony/polyfill-php73` -->
         <exclude name="PHPCompatibility.PHP.NewFunctions.is_countableFound"/>
+        <exclude name="PHPCompatibility.PHP.NewFunctions.hrtimeFound"/>
+        <exclude name="PHPCompatibility.PHP.NewFunctions.array_key_firstFound"/>
+        <exclude name="PHPCompatibility.PHP.NewFunctions.array_key_lastFound"/>
     </rule>
 
 </ruleset>
