@@ -25,6 +25,7 @@
     <!-- Includes ircmaxell password_compat. -->
     <rule ref="PHPCompatibilitySymfonyPolyfillPHP55"/>
     <rule ref="PHPCompatibilitySymfonyPolyfillPHP56"/>
+    <rule ref="PHPCompatibilitySymfonyPolyfillPHP71"/>
     <rule ref="PHPCompatibilitySymfonyPolyfillPHP73"/>
 
 </ruleset>
