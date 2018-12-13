@@ -88,6 +88,12 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 2.1.0 - 2018-12-16
+
+* Ruleset: Updated for the PHP 7.1 polyfill which is included in Joomla 3.9.
+* The ruleset is now also tested against PHP 7.3.
+    Note: full PHP 7.3 support is only available in combination with PHP_CodeSniffer 2.9.2 or 3.3.1+ due to an incompatibility within PHP_CodeSniffer itself.
+
 ### 2.0.0 - 2018-10-07
 
 - Ruleset: Updated for Joomla 3.9.
