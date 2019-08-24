@@ -88,6 +88,10 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 2.1.1 - 2019-08-29
+
+- The recommended version of the DealerDirect PHPCS Composer plugin is now `^0.5.0`.
+
 ### 2.1.0 - 2018-12-16
 
 * Ruleset: Updated for the PHP 7.1 polyfill which is included in Joomla 3.9.
