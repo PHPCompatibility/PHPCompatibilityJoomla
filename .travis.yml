@@ -41,7 +41,7 @@ script:
     fi
 
   # Test the ruleset.
-  - vendor/bin/phpcs ./Test/JoomlaTest.php --standard=PHPCompatibilityJoomla --runtime-set testVersion 5.3
+  - vendor/bin/phpcs ./Test/JoomlaTest.php --standard=PHPCompatibilityJoomla --runtime-set testVersion 5.3-
 
   # Validate the composer.json file.
   # @link https://getcomposer.org/doc/03-cli.md#validate
