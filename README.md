@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-joomla/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-joomla)
 [![Latest Unstable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-joomla/v/unstable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-joomla)
 [![License](https://poser.pugx.org/phpcompatibility/phpcompatibility-joomla/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/PHPCompatibility/PHPCompatibilityJoomla.svg?branch=master)](https://travis-ci.org/PHPCompatibility/PHPCompatibilityJoomla)
+[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/workflows/CI/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/actions)
 
 # PHPCompatibilityJoomla
 
