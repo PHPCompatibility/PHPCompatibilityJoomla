@@ -2,7 +2,7 @@
   "name" : "phpcompatibility/phpcompatibility-joomla",
   "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by Joomla.",
   "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "joomla" ],
+  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "joomla" ],
   "homepage" : "http://phpcompatibility.com/",
   "license" : "LGPL-3.0-or-later",
   "authors" : [ {
