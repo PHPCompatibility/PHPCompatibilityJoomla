@@ -87,6 +87,14 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 2.1.4 - 2025-01-16
+
+This is a maintenance release.
+
+- The recommended version of the [Composer PHPCS plugin] is now `^1.0.0`.
+- README: Fixed some broken badges.
+- General housekeeping and maintenance. Including a contribution by [@fredden].
+
 ### 2.1.3 - 2022-10-25
 
 - README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
@@ -126,4 +134,5 @@ Initial release of the PHPCompatibilityJoomla ruleset.
 
 [Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer/
 
+[@fredden]:   https://github.com/fredden
 [@GaryJones]: https://github.com/GaryJones
