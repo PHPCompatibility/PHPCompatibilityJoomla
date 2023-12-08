@@ -19,7 +19,8 @@
   } ],
   "support" : {
     "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla"
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla",
+    "security": "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/security/policy"
   },
   "config": {
     "allow-plugins": {
