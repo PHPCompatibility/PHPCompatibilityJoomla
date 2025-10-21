@@ -1,9 +1,9 @@
+# PHPCompatibilityJoomla
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-joomla)
 [![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-joomla)
 [![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityJoomla?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/blob/master/LICENSE)
 [![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityJoomla/actions/workflows/ci.yml)
-
-# PHPCompatibilityJoomla
 
 Using PHPCompatibilityJoomla, you can analyse the codebase of a Joomla-based project for PHP cross-version compatibility.
 
@@ -18,8 +18,8 @@ This Joomla specific ruleset prevents false positives from the [PHPCompatibility
 ## Requirements
 
 * [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer).
-    * PHP 5.3+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 2.3.0+.
-    * PHP 5.4+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 3.0.2+.
+    - PHP 5.3+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 2.3.0+.
+    - PHP 5.4+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 3.0.2+.
 
     Use the latest stable release of PHP_CodeSniffer for the best results.
     The minimum _recommended_ version of PHP_CodeSniffer is version 2.6.0.
@@ -82,4 +82,4 @@ By default PHP_CodeSniffer will analyse PHP, JavaScript and CSS files. As the PH
 
 ## License
 
-All code within the PHPCompatibility organisation is released under the GNU Lesser General Public License (LGPL). For more information, visit https://www.gnu.org/copyleft/lesser.html
+All code within the PHPCompatibility organisation is released under the GNU Lesser General Public License (LGPL). For more information, visit <https://www.gnu.org/licenses/lgpl-3.0.html>.
