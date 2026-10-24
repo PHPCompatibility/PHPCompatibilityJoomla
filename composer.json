@@ -1,38 +1,46 @@
 {
-  "name" : "phpcompatibility/phpcompatibility-joomla",
-  "description" : "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by Joomla.",
-  "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "joomla" ],
-  "homepage" : "http://phpcompatibility.com/",
-  "license" : "LGPL-3.0-or-later",
-  "authors" : [ {
-    "name" : "Wim Godden",
-    "role" : "lead"
-  },
-  {
-    "name" : "Juliette Reinders Folmer",
-    "role" : "lead"
-  },
-  {
-    "name" : "Michael Babker",
-    "role" : "Joomla specialist"
-  } ],
-  "support" : {
-    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityJoomla",
+  "name": "phpcompatibility/phpcompatibility-joomla",
+  "description": "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by Joomla.",
+  "license": "LGPL-3.0-or-later",
+  "type": "phpcodesniffer-standard",
+  "keywords": [
+    "compatibility",
+    "phpcs",
+    "standards",
+    "static analysis",
+    "joomla"
+  ],
+  "authors": [
+    {
+      "name": "Wim Godden",
+      "role": "lead"
+    },
+    {
+      "name": "Juliette Reinders Folmer",
+      "role": "lead"
+    },
+    {
+      "name": "Michael Babker",
+      "role": "Joomla specialist"
+    }
+  ],
+  "homepage": "http://phpcompatibility.com/",
+  "support": {
+    "issues": "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues",
+    "source": "https://github.com/PHPCompatibility/PHPCompatibilityJoomla",
     "security": "https://github.com/PHPCompatibility/PHPCompatibilityJoomla/security/policy"
   },
+  "require": {
+    "phpcompatibility/php-compatibility": "^10.0@dev",
+    "phpcompatibility/phpcompatibility-paragonie": "^2.0@dev",
+    "phpcompatibility/phpcompatibility-passwordcompat": "^2.0@dev",
+    "phpcompatibility/phpcompatibility-symfony": "^2.0@dev"
+  },
+  "prefer-stable": true,
   "config": {
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
     },
     "lock": false
-  },
-  "require" : {
-    "phpcompatibility/php-compatibility" : "^10.0@dev",
-    "phpcompatibility/phpcompatibility-passwordcompat" : "^2.0@dev",
-    "phpcompatibility/phpcompatibility-paragonie" : "^2.0@dev",
-    "phpcompatibility/phpcompatibility-symfony" : "^2.0@dev"
-  },
-  "prefer-stable" : true
+  }
 }
