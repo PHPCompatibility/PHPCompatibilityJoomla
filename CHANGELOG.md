@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 This projects adheres to [Semantic Versioning](https://semver.org/) and [Keep a CHANGELOG](https://keepachangelog.com/).
 
+## [3.0.0-alpha2] - 2026-11-17
+
+* The documentation has been updated to align with the recently released [PHPCompatibility 10.0.0-alpha3] version.
+* Support for PHP < 7.2 has been (soft) dropped.
+* Support for PHP_CodeSniffer 3.x has been (soft) dropped.
+
+[10.0.0-alpha3]: https://github.com/PHPCompatibility/PHPCompatibility/releases/tag/10.0.0-alpha3
+
 ## [3.0.0-alpha1] - 2025-10-22
 
 * Composer: All PHPCompatibility dependencies have been updated to the recently released PHPCompatibility 10.0.0-alpha1 based versions.
@@ -73,6 +81,7 @@ Initial release of the PHPCompatibilityJoomla ruleset.
 
 [Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer/
 
+[3.0.0-alpha2]: https://github.com/PHPCompatibility/PHPCompatibilityJoomla/compare/3.0.0-alpha1...3.0.0-alpha2
 [3.0.0-alpha1]: https://github.com/PHPCompatibility/PHPCompatibilityJoomla/compare/2.1.5...3.0.0-alpha1
 [2.1.5]:        https://github.com/PHPCompatibility/PHPCompatibilityJoomla/compare/2.1.4...2.1.5
 [2.1.4]:        https://github.com/PHPCompatibility/PHPCompatibilityJoomla/compare/2.1.3...2.1.4
